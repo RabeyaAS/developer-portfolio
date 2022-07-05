@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    justify-content:first baseline;
 }
 .half-width{
     width: 50%;
@@ -18,7 +19,6 @@ section{
     padding-right: 0%;
     block-size: 50px;
 }
-    
 .half-width img{
     width: 70%;
     padding-left: 110%;
@@ -35,4 +35,18 @@ section{
 .top-banner{
     background-image: url(developer-portfolio-master/developer-portfolio-master/images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big img{
+    height: 90%;
+    width: 90%;
+    padding-top: 1%;
+    padding-left: 0%;
+}
+.dream-big .half-width{
+    height: 20%;
+    width: 50%;
+    padding-top: 50%;
+    padding-left: 10%;
+    padding-right: 8%;
+    
 }
