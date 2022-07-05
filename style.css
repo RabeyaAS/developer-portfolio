@@ -11,10 +11,11 @@ h1{
 section{
     display: flex;
     justify-content:first baseline;
+    margin-bottom: 1%;
+
 }
 .half-width{
     width: 50%;
-    padding-top: 3%;
     padding-left: 5%;
     padding-right: 0%;
     block-size: 50px;
@@ -37,16 +38,19 @@ section{
     background-repeat: no-repeat;
 }
 .dream-big img{
-    height: 90%;
-    width: 90%;
-    padding-top: 1%;
+    height: 110%;
+    width: 100%;
     padding-left: 0%;
 }
 .dream-big .half-width{
     height: 20%;
     width: 50%;
     padding-top: 50%;
-    padding-left: 10%;
-    padding-right: 8%;
-    
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.dream-big{
+    background-image: url(developer-portfolio-master/developer-portfolio-master/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
